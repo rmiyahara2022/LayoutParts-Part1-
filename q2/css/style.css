@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* 回答はここから */
+.flex{
+display: flex;
+align-items: stretch;
+justify-content: center;
+}
+.cardlist--frame{
+outline: 10px solid #655;
+box-shadow: 0 0 0 6px #655;
+border-radius: 13px;
+}
+.cardlist--box{
+background: #d2b48c;
+width: 200px;
+padding: 10px;
+margin-right: 60px
+}

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* 回答はここから */
+
+/* Q1-1回答 */
+.white--box1{
+display: flex;
+background: #fff;
+width: 200px;
+}
+.white--box2{
+display: flex;
+background: #fff;
+width: 200px;
+padding: 20px 0;
+}
+.blue--box1{
+display: inline-block;
+background: #a4b3e9;
+font-size: 16px;
+padding: 10px;
+margin: 20px auto;
+}
+.blue--box2{
+display: inline-block;
+text-align: center;
+background: #a4b3e9;
+width: 90px;
+font-size: 16px;
+padding: 10px;
+margin: 0 auto;
+}
+
+/* Q1-2回答 */
+.table--parent{
+display: table;
+}
+.table--child{
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+}
+.table--text{
+background-color: #fff;
+display: inline-block;
+padding: 10px;
+font-size: 16px;
+}
+.flex--parent{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.flex--text{
+background-color: #fff;
+padding: 10px;
+font-size: 16px;
+}
+.position{
+font-size: 16px;
+background-color: #a4b3e9;
+display: inline-block;
+text-align: center;
+padding: 10px;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.cell--table{
+display: table;
+text-align: center;
+width: 100%;
+font-size: 18px;
+}
+
+tr:last-child { 
+border-top: 1px double rgb(255, 255, 255);
+}
+th, tr, td {
+line-height: 22px;
+border: 1px solid #000000;
+padding: 10px;
+}
+th {
+line-height: 26px;
+background-color: #319c4a;
+}
+tr:nth-child(even) {
+background-color: #d5ffc7;
+}
+tr:nth-child(odd) {
+background-color: #bcbcbc;
+}
